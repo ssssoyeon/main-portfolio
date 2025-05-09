@@ -457,7 +457,7 @@
     .solo h1 {
         font-size: 6rem;
     }
-    
+
     /* study */
     .study-item {
         width: 38rem;
@@ -516,8 +516,8 @@
     .content-right {
         padding-left: 0;
         gap: 2.5rem;
-        height: auto; 
-        min-height: auto; 
+        height: auto;
+        min-height: auto;
         overflow: visible;
     }
 
@@ -548,9 +548,9 @@
         display: none;
     }
 
-    .project-lst li.On .content .in .t-wrap {
+    /* .project-lst li.On .content .in .t-wrap h3 {
         display: none;
-    }
+    } */
 
     .project-lst li .content .in .img-wrap {
         width: 45rem;
@@ -561,7 +561,8 @@
         height: 27rem;
     }
 
-    .text-box.front .num, .text-box.back .num {
+    .text-box.front .num,
+    .text-box.back .num {
         font-size: 2.5rem;
     }
 
@@ -605,7 +606,9 @@
         height: 30rem;
     }
 
-    .my-call, .my-mail, .my-insta {
+    .my-call,
+    .my-mail,
+    .my-insta {
         display: none;
     }
 
@@ -616,7 +619,7 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
     .title-box {
         transform: scale(0.6);
     }
@@ -636,9 +639,18 @@
     .left .bottom h4.work-tit {
         font-size: 3rem;
     }
+
+    .project-lst li.On .content .in .t-wrap h3, 
+    .project-lst li.On .content .in .t-wrap p {
+        display: none;
+    }
+
+    .project-lst li .content .in {
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width:520px){
+@media screen and (max-width:520px) {
     ul.solo-work-list li a .left .top {
         flex-direction: column;
         align-items: flex-start;
@@ -650,7 +662,7 @@
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:400px) {
 
     aside ul li {
         width: 3rem;
@@ -697,7 +709,9 @@
         gap: 45rem;
     }
 
-    .profile-education .profile h4, .profile-education .education h4, .skills h4 {
+    .profile-education .profile h4,
+    .profile-education .education h4,
+    .skills h4 {
         font-size: 2.9rem;
     }
 
@@ -713,11 +727,21 @@
         width: calc(100% - 22.5rem);
     }
 
-    .birth .sub-tit, .email .sub-tit, .phone .sub-tit, .high .sub-tit, .colleage .sub-tit, .now .sub-tit {
+    .birth .sub-tit,
+    .email .sub-tit,
+    .phone .sub-tit,
+    .high .sub-tit,
+    .colleage .sub-tit,
+    .now .sub-tit {
         font-size: 1.9rem;
     }
 
-    .birth p, .email p, .phone p, .high p, .colleage p, .now p {
+    .birth p,
+    .email p,
+    .phone p,
+    .high p,
+    .colleage p,
+    .now p {
         font-size: 1.6rem;
     }
 
@@ -725,8 +749,12 @@
         width: 22.3rem;
     }
 
-    .solo h1  {
+    .solo h1 {
         font-size: 4.5rem;
+    }
+
+    .project-lst li .content .in .img-wrap {
+        width: 34rem;
     }
 
     ul.solo-work-list li a .left .top {
@@ -757,10 +785,12 @@
         font-size: 2.8rem;
     }
 
-    .contact .deco.deco3, .contact .deco.deco6,
-    .contact .deco.deco3, .contact .deco.deco6 {
+    .contact .deco.deco3,
+    .contact .deco.deco6,
+    .contact .deco.deco3,
+    .contact .deco.deco6 {
         display: none;
     }
 
-    
+
 }
