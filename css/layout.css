@@ -1,3 +1,7 @@
+.icon2 {
+    display: none;
+}
+
 .rel {
     margin: 0 auto;
     padding: 0;
@@ -1116,6 +1120,9 @@ ul.solo-work-list>li.On .content .in {
 }
 
 /* Study Section */
+.study {
+    padding-bottom: 25.6rem;
+}
 
 .study .study-list {
     display: flex;
