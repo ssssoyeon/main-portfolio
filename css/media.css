@@ -627,13 +627,31 @@
     }
 }
 
+@media screen and (max-width:660px) {
+
+    .project-lst li.On .content .in .t-wrap h3,
+    .project-lst li.On .content .in .t-wrap p {
+        display: none;
+    }
+
+    .project-lst li .content .in {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:600px) {
+    header .rel, .introduction .rel, .about-me .rel, .project .rel, .contact .rel {
+        padding: 0 2rem;
+    }
     .title-box {
         transform: scale(0.6);
     }
 
     .cloud2 {
         top: 70rem;
+    }
+    section.project .deco.moon4 {
+        display: none;
     }
 
     .role-info .ful {
@@ -648,17 +666,19 @@
         font-size: 3rem;
     }
 
-    .project-lst li.On .content .in .t-wrap h3,
-    .project-lst li.On .content .in .t-wrap p {
-        display: none;
-    }
 
-    .project-lst li .content .in {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width:520px) {
+
+    header .rel,
+    .introduction .rel,
+    .about-me .rel,
+    .project .rel,
+    .contact .rel {
+        padding: 0 1rem;
+    }
+
     ul.solo-work-list li a .left .top {
         flex-direction: column;
         align-items: flex-start;
@@ -667,6 +687,10 @@
     ul.solo-work-list li a .left .top .link-box span {
         padding: 1rem 1rem;
         font-size: 1.2rem;
+    }
+
+    .project-lst li .content .in .img-wrap {
+        width: 30rem;
     }
 }
 
@@ -712,7 +736,10 @@
     }
 
     .profile-info .profile-img {
-        right: calc(100% - 34.5rem);
+        position: relative;
+        width: 29rem;
+        top: 0rem;
+        right: calc(100% - 32rem);
     }
 
     .about-me .content {
@@ -759,12 +786,24 @@
         width: 22.3rem;
     }
 
+    header .rel,
+    .introduction .rel,
+    .about-me .rel,
+    .project .rel,
+    .contact .rel {
+        padding: 0 1rem;
+    }
+
+    section.project {
+        padding: 0 1rem 20rem;
+    }
+
     .solo h1 {
         font-size: 4.5rem;
     }
 
     .project-lst li .content .in .img-wrap {
-        width: 34rem;
+        width: 25rem;
     }
 
     ul.solo-work-list li a .left {
@@ -779,11 +818,11 @@
 
     ul.solo-work-list li a .left .top .link-box {
         gap: .5rem;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .left .bottom h4.work-tit {
-        font-size: 1.4rem;
+        font-size: 2.4rem;
     }
 
     ul.study-work-list {

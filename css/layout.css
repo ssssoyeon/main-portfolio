@@ -1020,13 +1020,13 @@ img {
 }
 
 .solo ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
-    background-color: #ff71bf;
+    background-color: #d6a2bf;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
 .solo .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
-    color: #ff71bf;
+    color: #d6a2bf;
 }
 
 /* team */
