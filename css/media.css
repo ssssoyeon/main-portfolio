@@ -72,10 +72,10 @@
 }
 
 @media screen and (max-width:1024px) {
-    aside {
+    /* aside {
         right: 3rem;
         top: 65rem;
-    }
+    } */
 
     aside ul {
         gap: .8rem;
@@ -593,6 +593,10 @@
 }
 
 @media screen and (max-width:760px) {
+    aside {
+        top: 65%;
+    }
+
     .profile-education .profile h4::after {
         width: calc(100% - 17.5rem);
     }
@@ -640,9 +644,15 @@
 }
 
 @media screen and (max-width:600px) {
-    header .rel, .introduction .rel, .about-me .rel, .project .rel, .contact .rel {
+
+    header .rel,
+    .introduction .rel,
+    .about-me .rel,
+    .project .rel,
+    .contact .rel {
         padding: 0 2rem;
     }
+
     .title-box {
         transform: scale(0.6);
     }
@@ -650,6 +660,7 @@
     .cloud2 {
         top: 70rem;
     }
+
     section.project .deco.moon4 {
         display: none;
     }
@@ -670,6 +681,11 @@
 }
 
 @media screen and (max-width:520px) {
+    aside ul li {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
 
     header .rel,
     .introduction .rel,
@@ -695,6 +711,7 @@
 }
 
 @media screen and (max-width:400px) {
+
 
     aside ul li {
         width: 3rem;
@@ -830,7 +847,7 @@
     }
 
     .study-item {
-        width: 28rem;
+        width: 33rem;
         height: 24rem;
     }
 
