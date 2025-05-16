@@ -773,7 +773,7 @@
     }
 
     .cloud2 {
-        top: 37rem;
+        top: calc(50% - -3rem);
         z-index: 0;
         width: 20rem;
         height: 10rem;
