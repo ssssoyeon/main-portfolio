@@ -949,84 +949,104 @@ img {
 
 /* solo */
 .solo ul.solo-work-list li:nth-child(1).On a .left .top .link-box span {
-    background-color: #D40056;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(1).On .left .bottom h4.work-tit {
-    color: #D40056;
-}
-
-.solo ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
-    background-color: #ff3e3e;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
-    color: #ff3e3e;
-}
-
-.solo ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
-    background-color: #AD7AFF;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
-    color: #AD7AFF;
-}
-
-.solo ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
-    background-color: #38d1bd;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
-    color: #38d1bd;
-}
-
-/* team */
-.team ul.solo-work-list li:nth-child(1).On a .left .top .link-box span {
-    background-color: #30ec01;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.team .project-lst li:nth-child(1).On .left .bottom h4.work-tit {
-    color: #30ec01;
-}
-
-.team ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
     background-color: #214B77;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
-.team .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
+.solo .project-lst li:nth-child(1).On .left .bottom h4.work-tit {
     color: #214B77;
 }
 
-.team ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
+.solo ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
+    background-color: #D40056;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.solo .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
+    color: #D40056;
+}
+
+.solo ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
+    background-color: #30ec01;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.solo .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
+    color: #30ec01;
+}
+
+.solo ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
     background-color: #d6a2bf;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
-.team .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
+.solo .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
     color: #d6a2bf;
 }
 
-.team ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
+.solo ul.solo-work-list li:nth-child(5).On a .left .top .link-box span {
     background-color: #40c2ff;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
-.team .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
+.solo .project-lst li:nth-child(5).On .left .bottom h4.work-tit {
     color: #40c2ff;
+}
+
+/* team */
+.team ul.solo-work-list li:nth-child(1).On a .left .top .link-box span {
+    background-color: #ec8601;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(1).On .left .bottom h4.work-tit {
+    color: #ec8601;
+}
+
+.team ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
+    background-color: #ffd000;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
+    color: #ffd000;
+}
+
+.team ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
+    background-color: #ff3c3c;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
+    color: #ff3c3c;
+}
+
+.team ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
+    background-color: #69463e;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
+    color: #69463e;
+}
+
+.team ul.solo-work-list li:nth-child(5).On a .left .top .link-box span {
+    background-color: #38d1bd;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(5).On .left .bottom h4.work-tit {
+    color: #38d1bd;
 }
 
 .project-lst li .content {
@@ -1202,7 +1222,7 @@ ul.study-work-list {
 }
 
 .text-box.back .content p.txt {
-    width: 24rem;
+    width: 36rem;
     font-size: 2.4rem;
     color: white;
     text-align: center;
