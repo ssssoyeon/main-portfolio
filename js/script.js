@@ -59,7 +59,14 @@ window.addEventListener('scroll', function () {
     if (rightPosition < screenHeight - 100) {
         contentRight.classList.add('show');
     }
-});
+    // 스크롤할 때마다 체크
+    window.addEventListener('scroll', checkPosition);
+
+    // 페이지 로드 직후에도 한 번 체크
+    window.addEventListener('load', checkPosition);
+}
+
+);
 
 
 // 현재 날짜

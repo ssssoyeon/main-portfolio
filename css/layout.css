@@ -245,7 +245,7 @@ section.introduction .rel {
     width: 100%;
 }
 
-section.introduction::after {
+/* section.introduction::after {
     content: "";
     position: absolute;
     top: 0;
@@ -255,7 +255,7 @@ section.introduction::after {
     background: url(../img/intro-union2.png) no-repeat center/contain;
     z-index: 2;
     animation: float 4.5s ease-in-out infinite;
-}
+} */
 
 .cloud {
     content: "";
@@ -709,53 +709,53 @@ section.project .deco {
     display: block;
 }
 
-section.project .deco.moon1 {
+/* section.project .deco.moon1 {
     background-image: url(../img/moon.png);
-    top: 67rem;
-    left: 0rem;
-    width: 20rem;
-    height: 20rem;
-}
+    top: 7rem;
+    left: 27rem;
+    width: 15rem;
+    height: 15rem;
+} */
 
-section.project .deco.moon2 {
+/* section.project .deco.moon2 {
     background-image: url(../img/myproject-union.png);
     top: 82rem;
     left: -21rem;
     width: 44rem;
     height: 26rem;
-}
+} */
 
-section.project .deco.moon3 {
+/* section.project .deco.moon3 {
     background-image: url(../img/moon.png);
     top: 150rem;
     left: 7rem;
     width: 11rem;
     height: 12rem;
-}
+} */
 
-section.project .deco.moon4 {
+/* section.project .deco.moon4 {
     background-image: url(../img/moon4.png);
     top: 195rem;
     right: 11rem;
     width: 30rem;
     height: 18rem;
-}
+} */
 
-section.project .deco.moon5 {
+/* section.project .deco.moon5 {
     background-image: url(../img/moon4.png);
     bottom: 153rem;
     right: 11rem;
     width: 30rem;
     height: 18rem;
-}
+} */
 
-section.project .deco.moon6 {
+/* section.project .deco.moon6 {
     background-image: url(../img/moon.png);
     bottom: 95rem;
     left: 3rem;
     width: 13rem;
     height: 14rem;
-}
+} */
 
 .solo-list,
 .team-list,
@@ -1000,64 +1000,74 @@ img {
 }
 
 .solo ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
-    background-color: #00d351;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
-    color: #00d351;
-}
-
-.solo ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
-    background-color: #195B83;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
-    color: #214B77;
-}
-
-.solo ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
-    background-color: #d6a2bf;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: white;
-}
-
-.solo .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
-    color: #d6a2bf;
-}
-
-/* team */
-.team ul.solo-work-list li:nth-child(1).On a .left .top .link-box span {
     background-color: #ff3e3e;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
-.team .project-lst li:nth-child(1).On .left .bottom h4.work-tit {
+.solo .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
     color: #ff3e3e;
 }
 
-.team ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
+.solo ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
     background-color: #AD7AFF;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
-.team .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
+.solo .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
     color: #AD7AFF;
 }
 
+.solo ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
+    background-color: #38d1bd;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.solo .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
+    color: #38d1bd;
+}
+
+/* team */
+.team ul.solo-work-list li:nth-child(1).On a .left .top .link-box span {
+    background-color: #30ec01;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(1).On .left .bottom h4.work-tit {
+    color: #30ec01;
+}
+
+.team ul.solo-work-list li:nth-child(2).On a .left .top .link-box span {
+    background-color: #214B77;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(2).On .left .bottom h4.work-tit {
+    color: #214B77;
+}
+
 .team ul.solo-work-list li:nth-child(3).On a .left .top .link-box span {
-    background-color: #bd5b00;
+    background-color: #d6a2bf;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
     color: white;
 }
 
 .team .project-lst li:nth-child(3).On .left .bottom h4.work-tit {
-    color: #bd5b00;
+    color: #d6a2bf;
+}
+
+.team ul.solo-work-list li:nth-child(4).On a .left .top .link-box span {
+    background-color: #40c2ff;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.team .project-lst li:nth-child(4).On .left .bottom h4.work-tit {
+    color: #40c2ff;
 }
 
 .project-lst li .content {
@@ -1245,6 +1255,12 @@ ul.study-work-list {
     letter-spacing: -0.2rem;
 }
 
+.text-box.back .content .img_wrap {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
 /* Contact Section */
 .contact {
     position: relative;
@@ -1290,6 +1306,7 @@ ul.study-work-list {
     display: flex;
     align-items: center;
     gap: .8rem;
+    z-index: 0;
 }
 
 .my-call,
@@ -1310,36 +1327,36 @@ ul.study-work-list {
     display: block;
 }
 
-#s3.contact .deco.deco1 {
+/* #s3.contact .deco.deco1 {
     background-image: url(../img/contact-cloud1.png);
     width: 25rem;
     height: 15rem;
-    top: .6rem;
-    left: -2.1rem;
-}
+    top: calc(50vh - 27rem);
+    left: calc(20vw + 14rem);
+} */
 
-.contact .deco.deco2 {
+/* .contact .deco.deco2 {
     background-image: url(../img/contact-cloud2.png);
     width: 25rem;
     height: 15rem;
-    top: 12rem;
-    left: -6rem;
-}
+    bottom: 12rem;
+    right: 11rem;
+} */
 
-.contact .deco.deco3 {
+/* .contact .deco.deco3 {
     background-image: url(../img/contact-cloud3.png);
     width: 41rem;
     height: 24rem;
     bottom: -.3rem;
     left: -9rem;
-}
+} */
 
 .contact .deco.deco4 {
     background-image: url(../img/contact-cloud4.png);
     width: 29rem;
     height: 17rem;
-    top: 5rem;
-    right: 58rem;
+    top: 7vh;
+    right: calc(30vw + 2rem);
     z-index: 0;
 }
 
@@ -1347,14 +1364,14 @@ ul.study-work-list {
     background-image: url(../img/contact-cloud5.png);
     width: 15rem;
     height: 9rem;
-    top: 13rem;
-    right: 48rem;
+    top: calc(14vh);
+    right: calc(27vw);
 }
 
-.contact .deco.deco6 {
+/* .contact .deco.deco6 {
     background-image: url(../img/contact-cloud6.png);
-    width: 41rem;
+    width: 30rem;
     height: 24rem;
     bottom: 0;
-    right: -8.2rem;
-}
+    right: -3rem;
+} */

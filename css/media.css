@@ -72,11 +72,6 @@
 }
 
 @media screen and (max-width:1024px) {
-    /* aside {
-        right: 3rem;
-        top: 65rem;
-    } */
-
     aside ul {
         gap: .8rem;
     }
@@ -179,30 +174,9 @@
         font-size: 1.8rem;
     }
 
-    /* .profile-education .profile h4,
-    .profile-education .education h4,
-    .skills h4 {
-        font-size: 3.5rem;
-    } */
-
     .profile-education .profile h4::after {
         width: 22.5rem;
     }
-
-    /* .skills h4::after {
-        width: 68.5rem;
-    }
-
-    .profile-education .profile h4::before,
-    .skills h4::before {
-        width: 18.3rem;
-        height: 9.3rem;
-    }
-
-    .profile-education .education h4::before {
-        width: 19.3rem;
-        height: 10.3rem;
-    } */
 
     .skills-list {
         gap: 4.5rem;
@@ -309,25 +283,6 @@
         height: 2.5rem;
     }
 
-    section.project .deco.moon1,
-    section.project .deco.moon2,
-    section.project .deco.moon5,
-    section.project .deco.moon6 {
-        display: none;
-    }
-
-    section.project .deco.moon3 {
-        top: 142rem;
-        left: 5rem;
-    }
-
-    section.project .deco.moon4 {
-        top: 216rem;
-        right: 3rem;
-        width: 19rem;
-        height: 18rem;
-    }
-
     /* study */
     .study-item {
         width: 44.5rem;
@@ -403,11 +358,21 @@
         font-size: 1.5rem;
     }
 
-    #s3.contact .deco.deco1,
+    /* #s3.contact .deco.deco1,
     #s3.contact .deco.deco2,
-    #s3.contact .deco.deco4,
-    #s3.contact .deco.deco5 {
+    #s3.contact .deco.deco3,
+    #s3.contact .deco.deco6 {
         display: none;
+    } */
+
+    .contact .deco.deco4 {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    .contact .deco.deco5 {
+        width: 11rem;
+        height: 11rem;
     }
 
 }
@@ -609,13 +574,27 @@
         width: calc(100% - 18.5rem);
     }
 
-    ul.study-work-list {
+    /* ul.study-work-list {
         width: 72rem;
-    }
+    } */
 
     .study-item {
-        width: 42rem;
-        height: 30rem;
+        width: 31rem;
+        height: 24rem;
+    }
+
+    .text-box.front .content h4.title {
+        font-size: 2.4rem;
+    }
+
+    .text-box.back .img_wrap {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .text-box.back .img_wrap a {
+        display: block;
+        width: 3rem;
     }
 
     .my-call,
@@ -632,6 +611,13 @@
 }
 
 @media screen and (max-width:660px) {
+    .solo h1 {
+        font-size: 5rem;
+    }
+
+    .left .bottom h4.work-tit {
+        font-size: 3.2rem;
+    }
 
     .project-lst li.On .content .in .t-wrap h3,
     .project-lst li.On .content .in .t-wrap p {
@@ -640,6 +626,52 @@
 
     .project-lst li .content .in {
         flex-direction: column;
+    }
+
+    ul.study-work-list {
+        width: 55rem;
+    }
+
+    .study-item {
+        width: 26rem;
+        height: 20rem;
+    }
+
+    .text-box.front .content h4.title {
+        font-size: 2.1rem;
+    }
+
+    .text-box.front .content .hash-box {
+        gap: 1.4rem;
+    }
+
+    .text-box.front .content .hash-box span {
+        font-size: 1.1rem;
+    }
+
+    .text-box.front .num,
+    .text-box.back .num {
+        font-size: 2.2rem;
+    }
+
+    .text-box.back .content {
+        padding-top: 3rem;
+    }
+
+    .text-box.back .content p.txt {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        width: 21rem;
+    }
+
+    .contact .deco.deco4 {
+        width: 13rem;
+        height: 27rem;
+    }
+
+    .contact .deco.deco5 {
+        width: 9rem;
+        height: 13rem;
     }
 }
 
@@ -677,6 +709,10 @@
         font-size: 3rem;
     }
 
+    /* .study-item {
+        width: 24rem;
+    } */
+
 
 }
 
@@ -686,6 +722,13 @@
         height: 3.5rem;
     }
 
+    header .rel {
+        display: none;
+    }
+
+    .title-box {
+        transform: scale(0.55);
+    }
 
     header .rel,
     .introduction .rel,
@@ -708,11 +751,23 @@
     .project-lst li .content .in .img-wrap {
         width: 30rem;
     }
+
+    ul.study-work-list {
+        width: 50rem;
+    }
+
+    .study-item {
+        width: 33rem;
+        height: 24rem;
+    }
+
+    .my-info .greeting {
+        font-size: 3.4rem;
+    }
+
 }
 
 @media screen and (max-width:400px) {
-
-
     aside ul li {
         width: 3rem;
         height: 3rem;
@@ -720,10 +775,6 @@
 
     .title-box {
         transform: scale(0.45);
-    }
-
-    header .rel {
-        display: none;
     }
 
     section.introduction::after {
@@ -842,14 +893,14 @@
         font-size: 2.4rem;
     }
 
-    ul.study-work-list {
+    /* ul.study-work-list {
         width: 50rem;
     }
 
     .study-item {
         width: 33rem;
         height: 24rem;
-    }
+    } */
 
     .text-box.front .content h4.title {
         font-size: 2.4rem;
@@ -876,9 +927,9 @@
         gap: 1.4rem;
     }
 
-    .text-box.back .content p.txt {
+    /* .text-box.back .content p.txt {
         font-size: 1.6rem;
-    }
+    } */
 
     .my-info .greeting {
         font-size: 2.8rem;
