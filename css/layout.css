@@ -1272,12 +1272,3 @@ ul.study-work-list {
     line-height: 3.1rem;
     letter-spacing: .1rem;
 }
-
-.contact .deco {
-    position: absolute;
-    content: "";
-    background: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-}
