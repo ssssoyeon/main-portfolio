@@ -1,7 +1,3 @@
-.icon2 {
-    display: none;
-}
-
 .rel {
     margin: 0 auto;
     padding: 0;
@@ -186,31 +182,6 @@ header .rel span:nth-of-type(2) {
     background-color: rgb(255, 255, 255);
 }
 
-/* header .rel span:nth-child(2) {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-header .rel span:nth-child(2)::before,
-header .rel span:nth-child(2)::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 48rem;
-    height: 0.2rem;
-    background-color: #fff;
-    transform: translateY(-50%);
-}
-
-header .rel span:nth-child(2)::before {
-    left: -50rem;
-}
-
-header .rel span:nth-child(2)::after {
-    right: -50rem;
-} */
-
 .deco {
     position: absolute;
 }
@@ -244,18 +215,6 @@ section.introduction .rel {
     gap: 3.3rem;
     width: 100%;
 }
-
-/* section.introduction::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -9rem;
-    width: 34rem;
-    height: 20rem;
-    background: url(../img/intro-union2.png) no-repeat center/contain;
-    z-index: 2;
-    animation: float 4.5s ease-in-out infinite;
-} */
 
 .cloud {
     content: "";
@@ -1131,10 +1090,6 @@ ul.solo-work-list>li.On .content .in {
 }
 
 /* Study Section */
-.study {
-    /* padding-bottom: 25.6rem; */
-}
-
 .study .study-list {
     display: flex;
     align-items: center;
@@ -1326,52 +1281,3 @@ ul.study-work-list {
     background-size: contain;
     display: block;
 }
-
-/* #s3.contact .deco.deco1 {
-    background-image: url(../img/contact-cloud1.png);
-    width: 25rem;
-    height: 15rem;
-    top: calc(50vh - 27rem);
-    left: calc(20vw + 14rem);
-} */
-
-/* .contact .deco.deco2 {
-    background-image: url(../img/contact-cloud2.png);
-    width: 25rem;
-    height: 15rem;
-    bottom: 12rem;
-    right: 11rem;
-} */
-
-/* .contact .deco.deco3 {
-    background-image: url(../img/contact-cloud3.png);
-    width: 41rem;
-    height: 24rem;
-    bottom: -.3rem;
-    left: -9rem;
-} */
-
-.contact .deco.deco4 {
-    background-image: url(../img/contact-cloud4.png);
-    width: 29rem;
-    height: 17rem;
-    top: 7vh;
-    right: calc(30vw + 2rem);
-    z-index: 0;
-}
-
-.contact .deco.deco5 {
-    background-image: url(../img/contact-cloud5.png);
-    width: 15rem;
-    height: 9rem;
-    top: calc(14vh);
-    right: calc(27vw);
-}
-
-/* .contact .deco.deco6 {
-    background-image: url(../img/contact-cloud6.png);
-    width: 30rem;
-    height: 24rem;
-    bottom: 0;
-    right: -3rem;
-} */
