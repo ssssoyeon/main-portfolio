@@ -1,38 +1,131 @@
-@media screen and (max-width:1520px) {
-
-    header .rel,
-    .introduction .rel,
-    .about-me .rel,
-    .project .rel,
-    .contact .rel {
-        padding: 0 3rem;
-    }
-
-    .about-me .content {
-        gap: 5.3rem;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .profile-info .profile-img {
-        position: absolute;
-        right: calc(55% - 46rem);
-        top: 10.3rem;
-    }
-
-    .content-right {
-        padding-left: 6rem;
-    }
-
+/* 공통 스타일 */
+.about-me .content {
+    padding: 0 2rem;
 }
 
-@media screen and (max-width:1340px) {
+.content-left {
+    gap: 3.5rem;
+}
+
+.content-right {
+    flex: 1;
+}
+
+.profile-education .profile,
+.profile-education .education {
+    width: 100%;
+}
+
+.birth .sub-tit,
+.email .sub-tit,
+.phone .sub-tit,
+.high .sub-tit,
+.colleage .sub-tit,
+.now .sub-tit {
+    font-size: 2.3rem;
+}
+
+.birth p,
+.email p,
+.phone p,
+.high p,
+.colleage p,
+.now p {
+    font-size: 1.8rem;
+}
+
+/* 1520px 이하 */
+@media (max-width: 1520px) {
+    .about-me .content {
+        gap: 5rem;
+    }
+
+    .content-left .role-info {
+        gap: 1.1rem;
+    }
+
+    .role-info .ful {
+        font-size: 5.5rem;
+        line-height: 6.5rem;
+    }
+
+    .role-info .front-end {
+        font-size: 9rem;
+        line-height: 8rem;
+    }
+
+    .content-left .profile-info {
+        width: 44rem;
+    }
+
+    p.greeting {
+        font-size: 2.6rem;
+    }
+
+    p.goal {
+        font-size: 1.5rem;
+    }
+
+    .content-right .profile-education {
+        gap: 3.8rem;
+    }
+
+    .profile .personal-information,
+    .education .personal-information {
+        width: 36rem;
+    }
+
+    .birth .sub-tit,
+    .email .sub-tit,
+    .phone .sub-tit {
+        width: 8rem;
+    }
+
+    .high .sub-tit,
+    .colleage .sub-tit,
+    .now .sub-tit {
+        width: 9rem;
+    }
+
+    .profile-education .profile h4::before,
+    .profile-education .education h4::before,
+    .skills h4::before {
+        width: 18.5rem;
+        height: 9.5rem;
+        top: -2.3rem;
+        left: -4.2rem;
+    }
+
+    .profile-education .profile h4::after,
+    .profile-education .education h4::after {
+        left: 14rem;
+        width: 22rem;
+    }
+
+    .skills h4::after {
+        left: 14rem;
+        width: 72rem;
+    }
+
+    .skills-list {
+        gap: 4rem;
+        margin-top: 4.5rem;
+    }
+
+    ul.left,
+    ul.right {
+        width: 37rem;
+    }
+}
+
+/* 1340px 이하 */
+@media (max-width: 1340px) {
     header .rel span {
         font-size: 2.8rem;
     }
 
     header .rel span:nth-of-type(1) {
-        min-width: 14rem
+        min-width: 14rem;
     }
 
     header .rel span:nth-of-type(2) {
@@ -43,12 +136,12 @@
         transform: scale(0.8);
     }
 
-    .cloud1 {
+    .cloud1,
+    .cloud2 {
         width: 34rem;
     }
 
     .cloud2 {
-        width: 34rem;
         height: 24rem;
     }
 
@@ -57,23 +150,277 @@
     }
 
     aside ul {
-        gap: 4.3rem;
-    }
-
-    aside ul li {
-        width: 5.5rem;
-        height: 5.5rem;
+        gap: 1.8rem;
     }
 
     .project-lst li .content .in {
         padding: 1rem;
     }
 
+    .about-me .content {
+        gap: 8rem;
+    }
+
+    .content-left {
+        gap: 3rem;
+    }
+
+    .content-right {
+        padding-right: 7rem;
+    }
+
+    .role-info .ful {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .role-info .front-end {
+        font-size: 8rem;
+        line-height: 7rem;
+    }
+
+    .content-left .profile-info {
+        width: 40rem;
+    }
+
+    p.greeting {
+        font-size: 2.4rem;
+    }
+
+    p.goal {
+        font-size: 1.4rem;
+    }
+
+    .content-right .profile-education {
+        gap: 2.5rem;
+    }
+
+    .birth .sub-tit,
+    .email .sub-tit,
+    .phone .sub-tit {
+        width: 7.5rem;
+        font-size: 2.2rem;
+    }
+
+    .high .sub-tit,
+    .colleage .sub-tit,
+    .now .sub-tit {
+        width: 8.5rem;
+        font-size: 2.2rem;
+    }
+
+    .birth p,
+    .email p,
+    .phone p,
+    .high p,
+    .colleage p,
+    .now p {
+        font-size: 1.7rem;
+    }
+
+    .profile-education .profile h4,
+    .profile-education .education h4,
+    .skills h4 {
+        font-size: 3.4rem;
+    }
+
+    .profile-education .profile h4::before,
+    .profile-education .education h4::before,
+    .skills h4::before {
+        width: 18rem;
+        height: 9rem;
+        top: -2.2rem;
+        left: -4rem;
+    }
+
+    .profile-education .profile h4::after {
+        width: 14rem;
+    }
+
+    .profile-education .education h4::after {
+        width: 16rem;
+    }
+
+    .skills h4::after {
+        left: 13rem;
+        width: 59rem;
+    }
+
+    .skills-list {
+        gap: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    ul.left,
+    ul.right {
+        width: 35rem;
+    }
+
+    ul.left li,
+    ul.right li {
+        gap: 2rem;
+    }
 }
 
-@media screen and (max-width:1024px) {
-    aside ul {
-        gap: .8rem;
+/* 1200px 이하 */
+@media (max-width: 1200px) {
+    aside ul li {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .about-me .content {
+        gap: 9rem;
+    }
+
+    .content-left {
+        gap: 2.8rem;
+    }
+
+    .role-info .ful {
+        font-size: 4.5rem;
+        line-height: 5.5rem;
+    }
+
+    .role-info .front-end {
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    .content-left .profile-info {
+        width: 36rem;
+    }
+
+    p.greeting {
+        font-size: 2.2rem;
+    }
+
+    p.goal {
+        font-size: 1.25rem;
+    }
+
+    .content-right {
+        gap: 5rem;
+    }
+
+    .content-right .profile-education {
+        gap: 0;
+    }
+
+    .birth .sub-tit,
+    .email .sub-tit,
+    .phone .sub-tit {
+        width: 7rem;
+        font-size: 2rem;
+    }
+
+    .high .sub-tit,
+    .colleage .sub-tit,
+    .now .sub-tit {
+        width: 8rem;
+        font-size: 2rem;
+    }
+
+    .birth p,
+    .email p,
+    .phone p,
+    .high p,
+    .colleage p,
+    .now p {
+        font-size: 1.6rem;
+    }
+
+    .profile-education .profile h4::before,
+    .profile-education .education h4::before,
+    .skills h4::before {
+        width: 17rem;
+        height: 8.5rem;
+        top: -2rem;
+        left: -3.8rem;
+    }
+
+    .skills h4::after {
+        left: 12.5rem;
+        width: 55rem;
+    }
+
+    .skills-list {
+        gap: 3rem;
+        padding-left: 2rem;
+    }
+
+    ul.left,
+    ul.right {
+        width: 32rem;
+    }
+}
+
+/* 1024px 이하 */
+@media (max-width: 1024px) {
+    p.goal {
+        display: none;
+    }
+
+    .about-me .content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .content-left .profile-info {
+        flex-direction: column-reverse;
+        width: auto;
+        gap: 1.5rem;
+    }
+
+    .profile-info .profile-img {
+        position: static;
+    }
+
+    .content-right {
+        padding: 0;
+        gap: 2.5rem;
+        height: auto;
+        min-height: auto;
+        overflow: visible;
+        width: 100%;
+    }
+
+    .content-right .profile-education {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .content-right .profile-education .profile,
+    .content-right .profile-education .education {
+        gap: 3rem;
+    }
+
+    .profile-education .profile h4::before,
+    .profile-education .education h4::before,
+    .skills h4::before {
+        display: none;
+    }
+
+    .profile-education .profile h4::after,
+    .profile-education .education h4::after {
+        width: 57rem;
+    }
+
+    .skills h4::after {
+        width: 59rem;
+    }
+
+    .skills {
+        padding: 0 2rem 4rem;
+        gap: 4.5rem;
+    }
+
+    .skills-list {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 3rem;
+        padding-left: 0;
     }
 
     header .rel {
@@ -86,6 +433,10 @@
 
     header .rel span:nth-of-type(2) {
         min-width: 17rem;
+    }
+
+    aside ul {
+        gap: 0.8rem;
     }
 
     aside ul li {
@@ -116,76 +467,27 @@
         line-height: 3.1rem;
     }
 
-    /* about-me */
     .about-me .section-title .img-wrap img {
         width: 3.4rem;
         height: 3.4rem;
     }
 
-    .about-me .content .content-left {
-        gap: 2rem;
-    }
-
-    .about-me .content .content-left .profile-info {
-        gap: 1.5rem;
-    }
-
-    .content .content-left .role-info {
+    .content-left .role-info {
         gap: 0;
     }
 
-    .about-me .about-me .role-info .ful {
+    .role-info .ful {
         font-size: 4.8rem;
     }
 
-    .about-me .role-info .front-end {
+    .role-info .front-end {
         font-size: 7.9rem;
-    }
-
-    p.greeting {
-        font-size: 2.2rem;
-    }
-
-    .content-right .profile-education {
-        gap: 4rem;
-    }
-
-    .content-right .profile-education .profile,
-    .content-right .profile-education .education {
-        width: 38rem;
-        gap: 3rem;
-    }
-
-    .birth .sub-tit,
-    .email .sub-tit,
-    .phone .sub-tit,
-    .high .sub-tit,
-    .colleage .sub-tit,
-    .now .sub-tit {
-        font-size: 2.2rem;
-    }
-
-    .birth p,
-    .email p,
-    .phone p,
-    .high p,
-    .colleage p,
-    .now p {
-        font-size: 1.8rem;
-    }
-
-    .profile-education .profile h4::after {
-        width: 22.5rem;
-    }
-
-    .skills-list {
-        gap: 4.5rem;
     }
 
     ul.left,
     ul.right {
-        gap: 1.2rem;
         width: 36.7rem;
+        gap: 1.2rem;
     }
 
     ul.left li,
@@ -193,21 +495,7 @@
         gap: 2.9rem;
     }
 
-    .bar {
-        width: 29.3rem;
-        height: 2.3rem;
-    }
-
-    .bar .progress-bar {
-        /* width: 20.9rem; */
-        height: 1.5rem;
-    }
-
-    /* my project */
-    .project .rel {
-        /* width: 92rem; */
-    }
-
+    /* Project */
     .solo h1 {
         font-size: 7rem;
     }
@@ -241,7 +529,7 @@
     ul.solo-work-list li a .left .top .badge {
         font-size: 2.2rem;
         line-height: 2.1rem;
-        letter-spacing: -.1rem;
+        letter-spacing: -0.1rem;
     }
 
     ul.solo-work-list li a .left .top .link-box span {
@@ -253,7 +541,7 @@
     }
 
     .right .tag-box {
-        gap: .4rem;
+        gap: 0.4rem;
     }
 
     .right .tag-box span {
@@ -283,7 +571,7 @@
         height: 2.5rem;
     }
 
-    /* study */
+    /* Study */
     .study-item {
         width: 44.5rem;
         height: 34rem;
@@ -313,14 +601,14 @@
 
     .text-box.front .content .hash-box span {
         font-size: 1.7rem;
-        letter-spacing: .1rem;
+        letter-spacing: 0.1rem;
     }
 
     .text-box.back .content p.txt {
         font-size: 2.4rem;
     }
 
-    /* footer */
+    /* Footer */
     .my-info {
         gap: 3.5rem;
     }
@@ -328,7 +616,7 @@
     .my-info .greeting {
         font-size: 3.8rem;
         line-height: 2rem;
-        letter-spacing: -.1rem;
+        letter-spacing: -0.1rem;
     }
 
     .my-info .name {
@@ -342,7 +630,7 @@
     .my-info .sns-wrap .call,
     .my-info .sns-wrap .mail,
     .my-info .sns-wrap .insta {
-        gap: .4rem;
+        gap: 0.4rem;
     }
 
     .my-info .sns-wrap .call img,
@@ -358,13 +646,6 @@
         font-size: 1.5rem;
     }
 
-    /* #s3.contact .deco.deco1,
-    #s3.contact .deco.deco2,
-    #s3.contact .deco.deco3,
-    #s3.contact .deco.deco6 {
-        display: none;
-    } */
-
     .contact .deco.deco4 {
         width: 21rem;
         height: 21rem;
@@ -374,20 +655,20 @@
         width: 11rem;
         height: 11rem;
     }
-
 }
 
-@media screen and (max-width:960px) {
+/* 960px 이하 */
+@media (max-width: 960px) {
     header .rel span {
         font-size: 2rem;
     }
 
     header .rel span:nth-of-type(1) {
-        min-width: 11rem
+        min-width: 11rem;
     }
 
     header .rel span:nth-of-type(2) {
-        min-width: 14rem
+        min-width: 14rem;
     }
 
     .cloud1 {
@@ -410,11 +691,6 @@
         transform: scale(0.7);
     }
 
-    /* about-me */
-    .content-right {
-        padding-left: 3rem;
-    }
-
     .content-right .profile-education {
         gap: 3rem;
     }
@@ -423,7 +699,6 @@
         font-size: 6rem;
     }
 
-    /* study */
     .study-item {
         width: 38rem;
         height: 30rem;
@@ -444,86 +719,17 @@
     .text-box.back .content p.txt {
         font-size: 2.2rem;
     }
-
 }
 
-@media screen and (max-width:880px) {
-
+/* 880px 이하 */
+@media (max-width: 880px) {
     .cloud2 {
         top: 63rem;
-    }
-
-    p.goal {
-        display: none;
-    }
-
-    .about-me .content .content-left .profile-info {
-        flex-direction: column-reverse;
-        width: auto;
-    }
-
-    .profile-info .profile-img {
-        position: static;
-        right: auto
-    }
-
-    .content-right .profile-education .profile,
-    .content-right .profile-education .education {
-        width: auto;
-        /* gap: 38rem; */
-    }
-
-    .profile-education .profile h4::before,
-    .profile-education .education h4::before,
-    .profile-education .profile h4::before,
-    .skills h4::before {
-        display: none;
-    }
-
-    .content-right .profile-education {
-        flex-direction: column;
-        gap: 2.5rem;
-    }
-
-    .content-right {
-        padding-left: 0;
-        gap: 2.5rem;
-        height: auto;
-        min-height: auto;
-        overflow: visible;
-        width: 100%;
-    }
-
-    .profile-education .profile h4::after {
-        width: 52.5rem;
-    }
-
-    .profile-education .education h4::after {
-        width: 49rem;
-    }
-
-    .skills h4::after {
-        width: 52.5rem;
-    }
-
-    .skills {
-        padding-left: 2rem;
-        padding-bottom: 4rem;
-    }
-
-    .skills-list {
-        margin-top: 3rem;
-        flex-direction: column;
-        gap: 1rem;
     }
 
     .right .tag-box {
         display: none;
     }
-
-    /* .project-lst li.On .content .in .t-wrap h3 {
-        display: none;
-    } */
 
     .project-lst li .content .in .img-wrap {
         width: 45rem;
@@ -554,29 +760,22 @@
     .text-box.front .content .hash-box span {
         font-size: 1.3rem;
     }
-
 }
 
-@media screen and (max-width:760px) {
+/* 760px 이하 */
+@media (max-width: 760px) {
     aside {
         top: 65%;
     }
 
-    .profile-education .profile h4::after {
-        width: calc(100% - 17.5rem);
-    }
-
+    .profile-education .profile h4::after,
     .profile-education .education h4::after {
-        width: calc(100% - 23rem);
+        width: calc(100% - 20rem);
     }
 
     .skills h4::after {
-        width: calc(100% - 18.5rem);
+        width: calc(100% - 14.5rem);
     }
-
-    /* ul.study-work-list {
-        width: 72rem;
-    } */
 
     .study-item {
         width: 31rem;
@@ -593,7 +792,6 @@
     }
 
     .text-box.back .img_wrap a {
-        display: block;
         width: 3rem;
     }
 
@@ -610,7 +808,8 @@
     }
 }
 
-@media screen and (max-width:660px) {
+/* 660px 이하 */
+@media (max-width: 660px) {
     .solo h1 {
         font-size: 5rem;
     }
@@ -675,8 +874,8 @@
     }
 }
 
-@media screen and (max-width:600px) {
-
+/* 600px 이하 */
+@media (max-width: 600px) {
     header .rel,
     .introduction .rel,
     .about-me .rel,
@@ -701,6 +900,10 @@
         font-size: 5rem;
     }
 
+    .role-info .front-end {
+        font-size: 6.9rem;
+    }
+
     .solo h1 {
         font-size: 5rem;
     }
@@ -708,15 +911,10 @@
     .left .bottom h4.work-tit {
         font-size: 3rem;
     }
-
-    /* .study-item {
-        width: 24rem;
-    } */
-
-
 }
 
-@media screen and (max-width:520px) {
+/* 520px 이하 */
+@media (max-width: 520px) {
     aside ul li {
         width: 3.5rem;
         height: 3.5rem;
@@ -744,7 +942,7 @@
     }
 
     ul.solo-work-list li a .left .top .link-box span {
-        padding: 1rem 1rem;
+        padding: 1rem;
         font-size: 1.2rem;
     }
 
@@ -764,10 +962,25 @@
     .my-info .greeting {
         font-size: 3.4rem;
     }
-
 }
 
-@media screen and (max-width:400px) {
+/* 470px 이하 */
+@media (max-width: 470px) {
+    .role-info .ful {
+        font-size: 4rem;
+    }
+
+    p.greeting {
+        font-size: 1.9rem;
+    }
+}
+
+/* 400px 이하 */
+@media (max-width: 400px) {
+    .section-title::after {
+        height: 21rem;
+    }
+
     .cloud1 {
         width: 18rem;
     }
@@ -796,33 +1009,29 @@
         font-size: 3rem;
     }
 
+    .about-me .content {
+        gap: 2rem;
+    }
+
     .about-me .content .content-left {
         gap: 1rem;
     }
 
-    .role-info .ful {
-        font-size: 4rem;
-    }
-
-    .about-me .role-info .front-end {
+    .role-info .front-end {
         font-size: 5.9rem;
         line-height: 5rem;
     }
 
     p.greeting {
-        font-size: 2rem;
+        font-size: 1.7rem;
         z-index: 5;
     }
 
     .profile-info .profile-img {
         position: relative;
         width: 29rem;
-        top: 0rem;
-        right: calc(100% - 32rem);
-    }
-
-    .about-me .content {
-        gap: 2rem;
+        top: 0;
+        right: calc(100% - 31rem);
     }
 
     .profile-education .profile h4,
@@ -831,16 +1040,13 @@
         font-size: 2.9rem;
     }
 
-    .profile-education .profile h4::after {
-        width: calc(100% - 24.5rem);
-    }
-
+    .profile-education .profile h4::after,
     .profile-education .education h4::after {
-        width: calc(100% - 28rem);
+        width: calc(100% - 17.5rem);
     }
 
     .skills h4::after {
-        width: calc(100% - 22.5rem);
+        width: calc(100% - 12.5rem);
     }
 
     .birth .sub-tit,
@@ -865,14 +1071,6 @@
         width: 22.3rem;
     }
 
-    header .rel,
-    .introduction .rel,
-    .about-me .rel,
-    .project .rel,
-    .contact .rel {
-        padding: 0 1rem;
-    }
-
     section.project {
         padding: 0 1rem 20rem;
     }
@@ -881,45 +1079,24 @@
         font-size: 4.5rem;
     }
 
-    .project-lst li .content .in .img-wrap {
-        width: 25rem;
-    }
-
     ul.solo-work-list li a .left {
         gap: 2.3rem;
     }
 
     ul.solo-work-list li a .left .top {
-        flex-direction: column;
         gap: 2.5rem;
-        align-items: flex-start;
     }
 
     ul.solo-work-list li a .left .top .link-box {
-        gap: .5rem;
-        /* flex-direction: column; */
+        gap: 0.5rem;
     }
 
     .left .bottom h4.work-tit {
         font-size: 2.4rem;
     }
 
-    /* ul.study-work-list {
-        width: 50rem;
-    }
-
-    .study-item {
-        width: 33rem;
-        height: 24rem;
-    } */
-
-    .text-box.front .content h4.title {
-        font-size: 2.4rem;
-    }
-
-    .text-box.front .num,
-    .text-box.back .num {
-        font-size: 2rem;
+    .project-lst li .content .in .img-wrap {
+        width: 25rem;
     }
 
     .text-box.front .content {
@@ -930,28 +1107,25 @@
         font-size: 2rem;
     }
 
-    .text-box.front .content .hash-box span {
-        font-size: 1rem;
-    }
-
     .text-box.front .content .hash-box {
         gap: 1.4rem;
     }
 
-    /* .text-box.back .content p.txt {
-        font-size: 1.6rem;
-    } */
+    .text-box.front .content .hash-box span {
+        font-size: 1rem;
+    }
+
+    .text-box.front .num,
+    .text-box.back .num {
+        font-size: 2rem;
+    }
 
     .my-info .greeting {
         font-size: 2.8rem;
     }
 
     .contact .deco.deco3,
-    .contact .deco.deco6,
-    .contact .deco.deco3,
     .contact .deco.deco6 {
         display: none;
     }
-
-
 }
