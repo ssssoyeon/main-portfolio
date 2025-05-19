@@ -92,32 +92,46 @@ $(function () {
         const $project = $(this);
         const $content = $project.find('.content');
 
-        $project.on('mouseenter', function () {
-            $project.addClass('On');
+        // 데스크탑에서만 마우스 이벤트 적용
+        if (!('ontouchstart' in window)) {
+            $project.on('mouseenter', function () {
+                $project.addClass('On');
+            });
 
+            $project.on('mouseleave', function () {
+                $project.removeClass('On');
+                if ($content.length) {
+                    $content.stop(true, true).slideUp(300);
+                }
+            });
+        }
 
-
-        });
-
-        $project.on('mouseleave', function () {
-            $project.removeClass('On');
-            if ($content.length) {
-                $content.slideUp(300); // 부드러운 종료
-            }
-        });
-
+        // 클릭(또는 터치) 시 토글
         $project.on('click', function (e) {
             e.preventDefault();
+
+            // 링크 클릭이면 패스
             if ($(e.target).closest('.link-box a').length) {
                 return;
             }
-            
+
+            // 토글 처리
             if ($content.length) {
-                $content.stop(true, true).slideDown(300); // 중첩 애니메이션 방지
+                const isOpen = $content.is(':visible');
+                
+                // 먼저 모든 항목 닫기 (선택적으로)
+                $('.project-lst .content').slideUp(300);
+                $('.project-lst > li').removeClass('On');
+
+                if (!isOpen) {
+                    $content.stop(true, true).slideDown(300);
+                    $project.addClass('On');
+                }
             }
         });
     });
 });
+
 
 //cursor
 document.addEventListener('DOMContentLoaded', function () {//start
