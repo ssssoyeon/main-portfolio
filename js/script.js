@@ -107,10 +107,11 @@ $(function () {
         });
 
         $project.on('click', function (e) {
+            e.preventDefault();
             if ($(e.target).closest('.link-box a').length) {
                 return;
             }
-            e.preventDefault();
+            
             if ($content.length) {
                 $content.stop(true, true).slideDown(300); // 중첩 애니메이션 방지
             }

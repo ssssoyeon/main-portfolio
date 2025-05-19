@@ -734,9 +734,13 @@ ul.solo-work-list li {
     background-color: rgba(55, 55, 55, 0.5);
     border: 0.05rem solid #ffffff5c;
     border-radius: 3rem;
-    padding: 3rem 4rem;
+    /* padding: 3rem 4rem; */
     overflow: hidden;
     transition: background-color 0.5s ease-in-out;
+}
+
+ul.solo-work-list li a {
+    padding: 3rem 4rem;
 }
 
 /* Solo Work List - Default State */
