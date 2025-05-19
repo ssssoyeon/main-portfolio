@@ -566,9 +566,10 @@
         line-height: 1.9rem;
     }
 
-    ul.solo-work-list li .content .in .t-wrap .link-box a {
+    ul.solo-work-list li .content .in .t-wrap .link-box>a {
         width: 2.5rem;
         height: 2.5rem;
+        padding: 0;
     }
 
     /* Study */

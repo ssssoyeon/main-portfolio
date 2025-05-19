@@ -108,12 +108,13 @@ $(function () {
 
         // 클릭(또는 터치) 시 토글
         $project.on('click', function (e) {
-            e.preventDefault();
+
 
             // 링크 클릭이면 패스
             if ($(e.target).closest('.link-box a').length) {
                 return;
-            }
+            }            
+            e.preventDefault();
 
             // 토글 처리
             if ($content.length) {

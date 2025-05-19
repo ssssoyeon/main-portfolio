@@ -739,7 +739,7 @@ ul.solo-work-list li {
     transition: background-color 0.5s ease-in-out;
 }
 
-ul.solo-work-list li a {
+ul.solo-work-list li>a {
     padding: 3rem 4rem;
 }
 
@@ -852,8 +852,9 @@ ul.solo-work-list li .content .in .t-wrap .link-box {
     gap: .4rem;
 }
 
-ul.solo-work-list li .content .in .t-wrap .link-box a {
-    width: 4.5rem
+ul.solo-work-list li .content .in .t-wrap .link-box a img {
+    width: 4.5rem;
+    height: auto;
 }
 
 ul.solo-work-list li .content .in .t-wrap p {
@@ -1040,6 +1041,7 @@ img {
 
 .project-lst li .content .in .t-wrap {
     color: #fff;
+    padding: 5rem;
 }
 
 ul.solo-work-list>li.On .content .in {
