@@ -63,7 +63,7 @@ let funcObj = {
             x: -10,
         })
         const progressBars = gsap.utils.toArray('.bar .progress-bar');
-        const widths = ['90%', '70%', '85%', '60%', '70%', '90%', '70%', '90%'];
+        const widths = ['60%', '50%', '75%', '90%', '85%', '80%', '75%', '70%'];
 
         scene1.to(progressBars, {
             width: i => widths[i],

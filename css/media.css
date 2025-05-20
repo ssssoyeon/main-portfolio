@@ -116,6 +116,14 @@
     ul.right {
         width: 37rem;
     }
+
+    ul.study-work-list {
+        width: 143rem;
+    }
+
+    .study-item {
+        width: 46rem;
+    }
 }
 
 /* 1340px 이하 */
@@ -260,6 +268,25 @@
     ul.right li {
         gap: 2rem;
     }
+
+    .study-item {
+        width: 39rem;
+        height: 37rem;
+    }
+
+    .text-box.front .content h4.title {
+        font-size: 3rem;
+    }
+
+    .text-box.front .content .hash-box span {
+        font-size: 1.5rem;
+    }
+
+    .text-box.back .content p.txt {
+        font-size: 2.2rem;
+        width: 33rem;
+    }
+
 }
 
 /* 1200px 이하 */
@@ -352,6 +379,20 @@
     ul.left,
     ul.right {
         width: 32rem;
+    }
+
+    .study-item {
+        width: 35.5rem;
+        height: 34rem;
+    }
+
+    ul.study-work-list {
+        width: 146rem;
+    }
+
+    .text-box.back .content p.txt {
+        font-size: 2rem;
+        width: 29rem;
     }
 }
 
@@ -567,8 +608,8 @@
     }
 
     ul.solo-work-list li .content .in .t-wrap .link-box>a {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
         padding: 0;
     }
 
@@ -719,6 +760,7 @@
 
     .text-box.back .content p.txt {
         font-size: 2.2rem;
+        width: 33rem;
     }
 }
 
@@ -787,6 +829,10 @@
         font-size: 2.4rem;
     }
 
+    .text-box.back .content p.txt {
+        width: 25rem;
+    }
+
     .text-box.back .img_wrap {
         display: flex;
         gap: 1rem;
@@ -829,12 +875,12 @@
     }
 
     ul.study-work-list {
-        width: 55rem;
+        width: 60rem;
     }
 
     .study-item {
-        width: 26rem;
-        height: 20rem;
+        width: 28rem;
+        height: 23rem;
     }
 
     .text-box.front .content h4.title {
@@ -877,6 +923,7 @@
 
 /* 600px 이하 */
 @media (max-width: 600px) {
+
     header .rel,
     .introduction .rel,
     .about-me .rel,
