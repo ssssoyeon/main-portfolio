@@ -1116,7 +1116,16 @@
     }
 
     .bar {
-        width: 22.3rem;
+        width: 21.3rem;
+        height: 2rem;
+    }
+
+    .bar .progress-bar {
+        height: 1.3rem;
+    }
+
+    ul.left li, ul.right li {
+        gap: 1.5rem;
     }
 
     section.project {
