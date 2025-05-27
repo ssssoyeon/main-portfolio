@@ -21,7 +21,8 @@
 .phone .sub-tit,
 .high .sub-tit,
 .colleage .sub-tit,
-.now .sub-tit {
+.now .sub-tit,
+.certificate .sub-tit {
     font-size: 2.3rem;
 }
 
@@ -30,7 +31,8 @@
 .phone p,
 .high p,
 .colleage p,
-.now p {
+.now p,
+.certificate p {
     font-size: 1.8rem;
 }
 
@@ -83,7 +85,8 @@
 
     .high .sub-tit,
     .colleage .sub-tit,
-    .now .sub-tit {
+    .now .sub-tit,
+    .certificate .sub-tit {
         width: 9rem;
     }
 
@@ -212,7 +215,8 @@
 
     .high .sub-tit,
     .colleage .sub-tit,
-    .now .sub-tit {
+    .now .sub-tit
+    .certificate .sub-tit {
         width: 8.5rem;
         font-size: 2.2rem;
     }
@@ -222,7 +226,8 @@
     .phone p,
     .high p,
     .colleage p,
-    .now p {
+    .now p,
+    .certificate p {
         font-size: 1.7rem;
     }
 
@@ -343,7 +348,8 @@
 
     .high .sub-tit,
     .colleage .sub-tit,
-    .now .sub-tit {
+    .now .sub-tit,
+    .certificate .sub-tit {
         width: 8rem;
         font-size: 2rem;
     }
@@ -353,7 +359,8 @@
     .phone p,
     .high p,
     .colleage p,
-    .now p {
+    .now p,
+    .certificate p {
         font-size: 1.6rem;
     }
 
@@ -923,7 +930,6 @@
 
 /* 600px 이하 */
 @media (max-width: 600px) {
-
     header .rel,
     .introduction .rel,
     .about-me .rel,
@@ -1102,7 +1108,8 @@
     .phone .sub-tit,
     .high .sub-tit,
     .colleage .sub-tit,
-    .now .sub-tit {
+    .now .sub-tit,
+    .certificate .sub-tit {
         font-size: 1.9rem;
     }
 
@@ -1111,7 +1118,8 @@
     .phone p,
     .high p,
     .colleage p,
-    .now p {
+    .now p
+    .certificate p {
         font-size: 1.6rem;
     }
 

@@ -558,7 +558,8 @@ p.goal {
 .profile .personal-information .phone,
 .education .personal-information .high,
 .education .personal-information .colleage,
-.education .personal-information .now {
+.education .personal-information .now,
+.education .personal-information .certificate{
     display: flex;
     align-items: center;
     gap: 2.4rem;
@@ -569,7 +570,8 @@ p.goal {
 .phone .sub-tit,
 .high .sub-tit,
 .colleage .sub-tit,
-.now .sub-tit {
+.now .sub-tit,
+.certificate .sub-tit {
     font-size: 2.4rem;
     color: white;
     text-transform: capitalize;
@@ -583,7 +585,8 @@ p.goal {
 
 .high .sub-tit,
 .colleage .sub-tit,
-.now .sub-tit {
+.now .sub-tit,
+.certificate .sub-tit {
     width: 9.5rem;
 }
 
@@ -592,8 +595,9 @@ p.goal {
 .phone p,
 .high p,
 .colleage p,
-.now p {
-    font-size: 1.9rem;
+.now p,
+.certificate p {
+    font-size: 1.8rem;
     font-weight: lighter;
     color: white;
 }
