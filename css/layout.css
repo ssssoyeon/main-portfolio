@@ -1264,3 +1264,16 @@ ul.study-work-list {
     line-height: 3.1rem;
     letter-spacing: .1rem;
 }
+
+.notion_link {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.notion_link:hover {
+    background-color: #00000028;
+    background-color: rgba(255, 255, 255, 0.411); 
+}
