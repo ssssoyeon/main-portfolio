@@ -969,6 +969,16 @@ img {
     color: #ff4545;
 }
 
+.solo ul.solo-work-list li:nth-child(7).On a .left .top .link-box span {
+    background-color: #3501A3;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.solo .project-lst li:nth-child(7).On .left .bottom h4.work-tit {
+    color: #3501A3;
+}
+
 /* team */
 .team ul.solo-work-list li:nth-child(1).On a .left .top .link-box span {
     background-color: #75a5ff;
